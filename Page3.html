@@ -12,29 +12,75 @@
     <main>
       <nav>
         <h2>Навигация по сайту:</h2>
-        <ul>
-          <li><a href="index.html">На главную</a></li>
-          <li><a href="Page2.html">Страница 2</a></li>
-        </ul>
+          <ul>
+            <li><a href="index.html">На главную</a></li>
+            <li><a href="Page2.html">Страница 2</a></li>
+          </ul>
         <h2 id="content">Навигация по странице:</h2>
-        <ul>
-          <li><a href="#left">ЛР №7. Использование слоев</a></li>
-          <li><a href="#gifs">ЛР №8. Использование графики и мультимедиа</a></li>
-          <li><a href="#tables">ЛР №8. Использование таблиц верстки</a></li>
-        </ul>
+          <ul>
+            <li><a href="#left">ЛР №7. Использование слоев</a></li>
+            <li><a href="#gifs">ЛР №8. Использование графики и мультимедиа</a></li>
+            <li><a href="#tables">ЛР №8. Использование таблиц верстки</a></li>
+          </ul>
       </nav>
+
       <section>
         <h3>Лабораторная работа №7. Использование слоев.</h3>
         <div id="left"><img src="leftImg.png"></div>
         <div id="central"><img src="centralImg.png"></div>
         <div id="right"><img src="rightImg.png"></div>   
       </section>
+
       <section>
         <h3>Лабораторная работа №8. Использование графики и мультимедиа.</h3>
-        <img src="filatova_slushaet.gif" height="400" alt="Филатова слушает">
-        <img id="goritsky" src="goritskiy_govorit.gif" height="200" alt="Горицкий говорит">  
+          <figure>
+            <img src="lights.png" alt="Карта изображений с ссылками цвета" usemap="#lightLink">
+                <map name="#lightLink">
+                  <area shape="circle" coords="55,58,38", href="https://ru.wikipedia.org/wiki/Красный_цвет">   
+                  <area shape="circle" coords="56,163,38", href="https://ru.wikipedia.org/wiki/Желтый_цвет">
+                  <area shape="circle" coords="51,252,38", href="https://ru.wikipedia.org/wiki/Зеленый_цвет">
+                </map>
+              <figcaption>Выполнение задания пункта 3.1</figcaption>
+          </figure>
+          <figure>
+            <img src="radioImg.png" alt="Карта изображений с ссылками на радио" usemap="#radioLink">
+                <map name="#radioLink">
+                  <area shape="rect" coords="193,200,325,312", href="https://retrofm.ru">   
+                  <area shape="rect" coords="0,0,113,115", href="https://orpheusradio.ru/">
+                </map>
+              <figcaption>Выполнение задания пункта 3.2</figcaption>
+          </figure>
       </section>
+
+      <section>
+        <figure>
+            <div class="lightsIcons">
+              <a href="https://ru.wikipedia.org/wiki/Красный_цвет" class="redIcon"></a>
+              <a href="https://ru.wikipedia.org/wiki/Желтый_цвет" class="yellowIcon"></a>
+              <a href="https://ru.wikipedia.org/wiki/Зеленый_цвет" class="greenIcon"></a>
+            </div>
+          <figcaption>Выполнение задания пункта 3.3</figcaption> 
+        </figure>
+      </section>
+
+      <section>
+        <figure>
+            <img src="filatova_slushaet.gif" height="400" alt="Филатова слушает">
+            <img src="goritskiy_govorit.gif" height="200" alt="Горицкий говорит">
+            <audio controls src="Daft_punk.mp3"></audio> 
+            <figcaption>Выполнение задания пунктов 3.4 и 3.5 </figcaption>
+        </figure> 
+      </section>
+
+      <section>
+        <figure>
+            <video controls src="Alushta.MOV" height="400">
+        </figure> 
+        <figcaption>Выполнение задания пункта 3.6 </figcaption>
+      </section>
+
       <p><a href="#content">К оглавлению</a></p>
+
       <aside>
         Тут могла быть ваша реклама
       </aside>

@@ -54,18 +54,39 @@
     color: #6a2cce;
   }
 
+  map {
+    margin-left: 100px;
+  }
+
+  figure {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  figure img, 
+  figure audio,
+  figure video {
+    vertical-align: middle;
+    margin-left: 100px;
+    border: 8px solid rgb(202, 224, 248);
+  }
+  
+  figcaption {
+    width: 502px;
+    padding-bottom: 8px;
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    font-style: italic;
+    text-align: center;
+    background-color: rgb(202, 224, 248);
+  }
+
   #left,
   #central,
   #right {
     position: relative;
     height: 100px;
   } 
-
-  #goritsky
-  {
-    position: relative;
-    top: -100px;
-  }
 
   #left {
     z-index: 1;
@@ -80,6 +101,27 @@
   #right {
     top: -200px;
     left: 300px;
-    z-index: 3;
+    z-index: 1;
+  }
+
+  .redIcon {
+    background: url(redIcon.png);
+    width: 108px;
+    height: 110px;
+    display: block;
+  }
+
+  .yellowIcon {
+    background: url(yellowIcon.png);
+    width: 108px;
+    height: 98px;
+    display: block;
+  }
+
+  .greenIcon {
+    background: url(greenIcon.png);
+    width: 108px;
+    height: 100px;
+    display: block;
   }
   
