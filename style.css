@@ -17,7 +17,7 @@
     line-height:normal;
 
   }
-  
+
   nav {
     color:#222222;
     text-decoration:underline;
@@ -26,6 +26,11 @@
   aside {
     margin: 20px 0; 
     color: #c4c4c4;
+  }
+
+  a[href] {
+    color: #0099ef;
+    text-decoration-line: underline;
   }
   
   pre,
@@ -53,6 +58,12 @@
   #central,
   #right {
       position:relative;
+  }
+
+  #goritsky
+  {
+    position: relative;
+    top: -100px;
   }
 
   #left {
