@@ -49,4 +49,25 @@
     color: #6a2cce;
   }
 
+  #left,
+  #central,
+  #right {
+      position:relative;
+  }
+
+  #left {
+    z-index: 1;
+  }
+
+  #central {
+    top: -150px;
+    left: 150px;
+    z-index: 3;
+  }
+
+  #right {
+    top: -350px;
+    left: 300px;
+    z-index: 1;
+  }
   
