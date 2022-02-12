@@ -57,8 +57,9 @@
   #left,
   #central,
   #right {
-      position:relative;
-  }
+    position: relative;
+    height: 100px;
+  } 
 
   #goritsky
   {
@@ -71,14 +72,14 @@
   }
 
   #central {
-    top: -150px;
+    top: -70px; 
     left: 150px;
     z-index: 3;
   }
 
   #right {
-    top: -350px;
+    top: -200px;
     left: 300px;
-    z-index: 1;
+    z-index: 3;
   }
   
