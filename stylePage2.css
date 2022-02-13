@@ -1,0 +1,16 @@
+  pre,
+  code {
+    font-family: "Courier New", "Courier", monospace;
+    color: #6a2cce;
+  }
+
+  blockquote {
+    padding-left: 14px;
+    border-left: 2px solid #6a2cce;
+  
+    color: #6a2cce;
+  }
+  
+  cite {
+    color: #222222;
+  }
