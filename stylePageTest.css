@@ -1,0 +1,20 @@
+header h1 {
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  #indicator {
+    width: 1em;
+    height: 1em;
+      line-height: 3em;
+      border-radius: 1.5em;
+    text-align: center;
+    padding: auto auto;
+  }
+  .red {
+    background-color: red;
+  }
+  .green {
+    background-color: green;
+  }

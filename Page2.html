@@ -12,9 +12,8 @@
     <body>
         <div class="header">
             <header>
-                <h1>Вторая страница</h1>
-                <p><b>Автор сайта:</b> <i>Филатова Екатерина <sup><a href="https://t.me/avotaliff">telegram</a></sup></i></p>
-                <aside>Здесь могла быть ваша реклама</aside>
+            <h1>Вторая страница</h1>
+            <p><b>Автор сайта:</b> <i>Филатова Екатерина <sup><a href="https://t.me/avotaliff">telegram</a></sup></i></p> 
             </header>
         </div>
       
@@ -30,6 +29,46 @@
             </div>
         
             <div class="main">
+                <ul class="infoMenu">
+                    <li><a href="">Эукариоты</a>
+                        <ul class="subMenu">
+                        <li><a href="">Животные</a>
+                            <ul class="subMenu subMenu2">
+                            <li><a href="">Млекопитающие</a>
+                                <ul class="subMenu subMenu2">
+                                    <li><a href="">Наземные</a></li>
+                                    <li><a href="">Подземные</a></li>
+                                    <li><a href="">Летающие</a></li>
+                                    <li><a href="">Водные</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Птицы</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Растения</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Бактерии</a>
+                        <ul class="subMenu">
+                        <li><a href="">Шаровидные</a>
+                            <ul class="subMenu subMenu2">
+                            <li><a href="">Палочковидные</a></li>
+                            <li><a href="">Извитые</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Болезнетворные кокки</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Археи</a></li>
+                    <li><a href="">Вирусы</a>
+                        <ul class="subMenu">
+                            <li><a href="">Двуцепочечные ДНК</a></li>
+                            <li><a href="">Одноцепочечные ДНК</a></li>
+                            <li><a href="">РНК-редупликации</a></li>
+                            <li><a href="">Одноцепочечные РНК</a></li>
+                        </ul>
+                    </li>
+                </ul>
                 <article>
                     <pre>
                         /\_/\
@@ -56,37 +95,14 @@
                     </blockquote>
     
                     <p>По словам <cite>Чарльза Буковски</cite> — <q>Интеллектуал о простой вещи говорит сложно — художник сложную вещь описывает простыми словами.</q></p>
-                    <p>Какой доктор ваш любимый (в сериале <cite>Доктор Кто</cite>)?</p>
+                  
                 </aside>
-                <section>               
-                    Логический раздел документа.
-                    <ul>
-                        <li>Элемент неупорядоченного списка</li>
-                        <li>Элемент неупорядоченного списка
-                            <ul>
-                                <li> &lt Элемент 1 &gt </li>
-                                <li> &lt Элемент 2 &gt</li>
-                                <li> &lt Элемент 3 &gt</li>
-                            </ul>
-                        </li>
-                        <li>Элемент неупорядоченного списка</li>
-                    </ul>
-                    <ol start="b" reversed type="i">
-                        <li>Элемент упорядоченного списка</li>
-                        <li>Элемент упорядоченного списка</li>
-                        <li>Элемент упорядоченного списка</li>
-                    </ol>
-                </section>
                 <section>
-                    <dl>
-                        <dt>HTML</dt>
-                        <dd>Язык гипертекстовой разметки</dd>
-                        <dt>CSS</dt>
-                        <dd>Каскадные таблицы стилей</dd>
-                        <dd>Язык для оформления HTML-документов</dd>
-                      </dl>
+                    <p><ins>Предлагаем вам ответить на несколько вопросов для определения уровня <i>Вашего</i> интеллекта!<ins></p>
+                    <button onclick="openPageTest()">Начать тест</button>
                 </section>
             </div>
         </div>
-    </body>
+        <script src="openPageTest.js"></script>
+    </body>    
 </html>

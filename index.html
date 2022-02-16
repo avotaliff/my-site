@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <link href="styleIndexPage.css" rel="stylesheet">
+    <meta charset="UTF-8">
     <link href="styleGeneral.css" rel="stylesheet">
+    <link href="stylePage1.css" rel="stylesheet">
     <title>Сайт начинающего верстальщика</title>
   </head>
   <body>
     <div class="header">
-      <header>
-        <h1>Главная страница</h1>
-        <p><b>Автор сайта:</b> <i>Филатова Екатерина <sup><a href="https://t.me/avotaliff">telegram</a></sup></i></p>
+      <div class="banner">
         <aside>Здесь могла быть ваша реклама</aside>
-      </header>
+      </div>
+      <div class="cap">
+        <header>
+          <h1>Главная страница</h1>
+          <p><b>Автор сайта:</b> <i>Филатова Екатерина <sup><a href="https://t.me/avotaliff">telegram</a></sup></i></p> 
+        </header>
+      </div>
     </div>
 
     <div class="container">
@@ -26,15 +31,25 @@
       </div>
 
       <div class="main">
-        <section>
-          <script type="text/javascript">
-            document.write(Date());
-          </script>
-        </section>
-        <article>
-          <a href="Филатова_Резюме.pdf" download>Скачать мое резюме</a>
-        </article>
+        <div id="clock"></div>
+        <div id="calendar"></div>
+        <form name="test" method="post" action="input1.php">
+          <p>
+            <b>Ваше имя:</b><br>
+            <input id="name" type="text" size="40">
+          </p>
+          <p>
+            <b>Сообщение</b><Br>
+            <textarea name="comment" cols="40" rows="3"></textarea>
+          </p>
+          <p>
+            <input type="button" value="Отправить" onclick="openInfoWindow()">
+            <input type="reset" value="Очистить">
+          </p>
+        </form>
+        <a href="Филатова_Резюме.pdf" download>Скачать мое резюме</a>
       </div>
     </div>
+    <script src="helloMessage.js"></script>
   </body>
 </html>  

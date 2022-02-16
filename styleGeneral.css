@@ -1,81 +1,74 @@
 body {
-    padding: 10px;
-    background-color:#F0FFF0;
-    font-size: 14px;
-    line-height: 22px;
-    font-family: "Georgia", serif;
-    color: #222222;
+  padding: 10px;
+  background-color:#F0FFF0;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: "Georgia", serif;
+  color: #222222;
+}
+
+header p {
+  float: right;
+  vertical-align: bottom;
+  margin-top: 70px;
+}
+
+nav h2 {
+  text-align: center;
+  font-size: 16px;  
+  color:#222222;
+  text-decoration:underline;
+}
+
+nav ul {
+  display: block;
+  list-style: square;
+  text-align: center;
+  width: 200px;   
   }
 
-  .header {
-    padding: 20px; /*Внутренний отступ*/
-    width: 1100px;
-    margin: auto; /*Слой по середине*/
+nav li {
     margin-bottom: 10px;
-    height: 150px;
-    border-radius: 20px 20px 0 0;
-    background-color: #c9c0e8;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.86);
-  }
+}
 
-  .container {
-    width: 1140px;
-    margin: auto; /*Слой по середине*/
+.header {
+  padding: 20px; /*Внутренний отступ*/
+  width: 1100px;
+  margin: auto; /*Слой по середине*/
+  margin-bottom: 10px;
+  height: 150px;
+  border-radius: 20px 20px 0 0;
+  background-color: #c9c0e8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.86);
+}
 
-  }
+.container {
+  width: 1140px;
+  margin: auto;
 
-  .menu {
-    float: left;
-    width: 300px; 
-    border-radius: 0 0 20px 20px;
-    background-color: #e0dbf1;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.86);
-  }
+}
 
-  .main {
-    width: 790px;   
-    border-radius: 0 0 20px 20px;
-    margin-left: 310px;
-    padding: 20px;
-    background-color: #e8e3f3;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.86);
-  }
+.menu {
+  float: left;
+  width: 300px; 
+  border-radius: 0 0 20px 20px;
+  background-color: #e0dbf1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.86);
+}
 
-  header p {
-    text-align: right;
-  }
+.main {
+  width: 790px;   
+  border-radius: 0 0 20px 20px;
+  margin-left: 310px;
+  padding: 20px;
+  background-color: #e8e3f3;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.86);
+}
 
-  h1 {
-    font-size: 20px; 
-    text-align: center; /*Выравнивание текста*/
-    vertical-align: top; /*Вертикальное выравнивание*/
-  }
+a[href] {
+  color: #0099ef;
+  text-decoration-line: underline;
+}
 
-  nav h2 {
-    text-align: center;
-    font-size: 16px;  
-    color:#222222;
-    text-decoration:underline;
-  }
 
-  nav ul {
-    display: block;
-    list-style: square;
-    text-align: center;
-    width: 200px;   
-    }
 
-  nav li {
-      margin-bottom: 10px;
-  }
-
-  aside {
-    margin-left: auto;
-    margin-bottom: 0px;
-    color:blueviolet ;
-  }
-
-  a[href] {
-    color: #0099ef;
-    text-decoration-line: underline;
-  }

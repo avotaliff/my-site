@@ -1,16 +1,77 @@
-  pre,
-  code {
-    font-family: "Courier New", "Courier", monospace;
-    color: #6a2cce;
-  }
+header h1 {
+  font-size: 20px;
+  margin-top: 15px;
+  text-align: center;
+}
 
-  blockquote {
-    padding-left: 14px;
-    border-left: 2px solid #6a2cce;
-  
-    color: #6a2cce;
-  }
-  
-  cite {
-    color: #222222;
-  }
+pre,
+code {
+  font-family: "Courier New", "Courier", monospace;
+  color: #6a2cce;
+}
+
+aside {
+  margin-left: auto;
+  margin-bottom: 0px;
+  color:blueviolet ;
+}
+
+blockquote {
+  padding-left: 14px;
+  border-left: 2px solid #6a2cce;
+
+  color: #6a2cce;
+}
+
+cite {
+  color: #222222;
+}
+
+/*ul*/
+.infoMenu {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  margin-left: 40px;
+}
+
+.infoMenu a {
+  display: block;
+  color: black;
+  background-color: #abd94e;
+  padding: 1em;
+  list-style: none;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.86);
+  text-align: center;
+  white-space: nowrap;
+  width: 150px;
+}
+
+.subMenu{
+  list-style: none;
+  display: none;
+  flex-direction: column;
+  position: absolute; 
+  margin-left: -40px;
+  padding-top: 1em;
+}
+
+.subMenu2 {
+  top: 0;
+  left: 100%;
+}
+
+.infoMenu li:hover > a,
+.infoMenu a:hover {
+  background-color: #89ba25;
+}
+
+li:hover > .subMenu{
+  display: flex;
+}
+
+.infoMenu li,
+.subMenu li {
+  position: relative;
+}

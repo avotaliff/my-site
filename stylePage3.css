@@ -1,69 +1,82 @@
+header h1 {
+  font-size: 20px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+figure img, 
+figure audio,
+figure video {
+  vertical-align: middle;
+  border: 8px solid rgb(202, 224, 248);
+}
+
+aside {
+  margin-left: auto;
+  margin-bottom: 0px;
+  color:blueviolet ;
+}
+
+figcaption {
+  width: 500px;
+  padding-bottom: 8px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  font-style: italic;
+  background-color: rgb(202, 224, 248);
+}
+
 .main{
   text-align: center;
 }
 
-  figure img, 
-  figure audio,
-  figure video {
-    vertical-align: middle;
-    border: 8px solid rgb(202, 224, 248);
-  }
-  
-  figcaption {
-    width: 500px;
-    padding-bottom: 8px;
-    margin-left: 130px;
-    margin-bottom: 50px;
-    font-size: 12px;
-    letter-spacing: 0.02em;
-    font-style: italic;
-    background-color: rgb(202, 224, 248);
-  }
+.redIcon {
+  background: url(redIcon.png);
+  margin-left: 330px;
+  width: 108px;
+  height: 110px;
+  display: block;
+}
 
-  #left,
-  #central,
-  #right {
-    position: relative;
-    height: 80px;
-  } 
+.yellowIcon {
+  background: url(yellowIcon.png);
+  width: 108px;
+  margin-left: 330px;
+  height: 98px;
+  display: block;
+}
 
-  #left {
-    z-index: 1;
-    left: -150px;
-  }
+.greenIcon {
+  background: url(greenIcon.png);
+  width: 108px;
+  margin-left: 330px;
+  height: 100px;
+  display: block;
+}
 
-  #central {
-    top: -40px; 
-    z-index: 3;
-  }
+#left,
+#central,
+#right {
+  position: relative;
+  height: 80px;
+} 
 
-  #right {
-    top: -160px;
-    left: 150px;
-    z-index: 1;
-  }
+#left {
+  z-index: 1;
+  left: -150px;
+}
 
-  .redIcon {
-    background: url(redIcon.png);
-    margin-left: 330px;
-    width: 108px;
-    height: 110px;
-    display: block;
-  }
+#central {
+  top: -40px; 
+  z-index: 3;
+}
 
-  .yellowIcon {
-    background: url(yellowIcon.png);
-    width: 108px;
-    margin-left: 330px;
-    height: 98px;
-    display: block;
-  }
+#right {
+  top: -160px;
+  left: 150px;
+  z-index: 1;
+}
 
-  .greenIcon {
-    background: url(greenIcon.png);
-    width: 108px;
-    margin-left: 330px;
-    height: 100px;
-    display: block;
-  }
   

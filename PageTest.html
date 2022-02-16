@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html leng="ru">
+    <head>
+        <meta charset="UTF-8">
+        <link href="styleGeneral.css" rel="stylesheet">
+        <link href="stylePageTest.css" rel="stylesheet">
+        <title>Тест</title>
+    </head>
+    <body>
+        <div class="header">
+            <header>
+            <h1>Тест</h1>
+            <p><b>Автор сайта:</b> <i>Филатова Екатерина <sup><a href="https://t.me/avotaliff">telegram</a></sup></i></p> 
+            </header>
+        </div>
+      
+        <div class="container">
+            <div class="menu">
+                <nav>
+                    <h2>Навигация по сайту:</h2>
+                    <ul>
+                        <li><a href="index.html">На главную</a></li>
+                        <li><a href="Page2.html">Страница 2</a></li>
+                        <li><a href="Page3.html">Страница 3</a></li>
+                    </ul>
+                </nav>
+            </div>
+        
+            <div class="main">
+                <b>Таймер: </b>
+                <div id="indicator" class="red">5</div>
+                <br>      
+                <p><b>1. При падении чего принято загадывать желание?</b></p>
+                <input type="radio" name="wish" value="Температуры"> Температуры<Br>
+                <input type="radio" name="wish" value="Дисциплины"> Дисциплины<Br>
+                <input type="radio" name="wish" value="Звезды"> Звезды<Br>
+                <input type="radio" name="wish" value="Курса рубля"> Курса рубля<Br>
+                <br>
+                <p><b>2. Какой запрет реже всего нарушают российские граждане?</b></p>
+                <input type="radio" name="ban" value="Некурить"> “Не курить!”<Br>
+                <input type="radio" name="ban" value="Соблюдайтеочередь"> “Соблюдайте очередь!”<Br>
+                <input type="radio" name="ban" value="Входпопропускам"> “Вход - по пропускам!“<Br>
+                <input type="radio" name="ban" value="Невлезайубьет"> “Не влезай, убьет!”<Br>    
+                <br>
+                <p><b>3. Как благодарные сограждане окрестили период брежневского правления?</b></p>
+                <input type="radio" name="board" value="Простой"> Простой<Br>
+                <input type="radio" name="board" value="Застой"> Застой<Br>
+                <input type="radio" name="board" value="Перестой"> Перестой<Br>
+                <input type="radio" name="board" value="Отстой"> Отстой<Br>    
+                <br>
+                <input type="submit" onclick="submitClick()">
+            </div>
+        </div>
+    </body>
+    <script src="timerTest.js"></script>
+</html>
